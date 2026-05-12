@@ -1,0 +1,926 @@
+{
+  "trainings": [
+    {
+      "name": "Contratos de trabajo Chile, Colombia y Uruguay",
+      "service": "Documentación Controlada",
+      "date": null,
+      "speaker": "Nicolás Córdova",
+      "description": "Víctor Oliva",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Revisión de documentos y criterios",
+      "service": "Documentación Controlada",
+      "date": null,
+      "speaker": "Nicolás Córdova",
+      "description": "nicolás Córdova",
+      "type": "Por servicio"
+    },
+    {
+      "name": "Uso intermedio de ofimática, gmail, office 365",
+      "service": "Documentación Controlada",
+      "date": null,
+      "speaker": "Nicolás Córdova",
+      "description": "Externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Detección de documentos falsos o alterados",
+      "service": "Documentación Controlada",
+      "date": null,
+      "speaker": "Nicolás Córdova",
+      "description": "Nicolás Córdova",
+      "type": "Por servicio"
+    },
+    {
+      "name": "GO",
+      "service": "INNTEK",
+      "date": null,
+      "speaker": "Rodrigo Zapata",
+      "description": "Externo",
+      "type": "INNTEK"
+    },
+    {
+      "name": "PHP LARAVEL VIEW",
+      "service": "INNTEK",
+      "date": null,
+      "speaker": "Rodrigo Zapata",
+      "description": "Externo",
+      "type": "INNTEK (completado)"
+    },
+    {
+      "name": "Actualización de desarrolladores – Programación segura",
+      "service": "INNTEK",
+      "date": null,
+      "speaker": "Rodrigo Zapata",
+      "description": "Externo",
+      "type": "INNTEK"
+    },
+    {
+      "name": "SQL",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Rodrigo Zapata",
+      "description": "Externo",
+      "type": "INNTEK / Multi"
+    },
+    {
+      "name": "ISO 9001 – Formación avanzada Encargado de Calidad",
+      "service": "OVAL",
+      "date": "2026-01-Encargado",
+      "speaker": "Kamel Jarufe",
+      "description": "Externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "NCh-ISO/IEC 17029",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Victor Oliva",
+      "description": "Víctor Oliva",
+      "type": "Por servicio"
+    },
+    {
+      "name": "NCh-ISO/IEC 17029 - CERTIFICACIÓN A ENCARGADO Y JOP",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Francisco García",
+      "description": "INN"
+    },
+    {
+      "name": "Ciberseguridad – Concientización general",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Sergio Illanes",
+      "description": "Sergio Illanes",
+      "type": "Corporativa"
+    },
+    {
+      "name": "Excel Avanzado – Dashboards corporativos",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Francisco García",
+      "description": "Externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Excel Básico e Intermedio",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Francisco García",
+      "description": "Externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Prevención de delitos (20.393)",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Victor Oliva",
+      "description": "Víctor Oliva"
+    },
+    {
+      "name": "ISO 9001 – Fundamentos",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Kamel Jarufe",
+      "description": "Kamel Jarufe",
+      "type": "Corporativa"
+    },
+    {
+      "name": "ISO 9001- Nivel Auditor",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Kamel Jarufe",
+      "description": "Externo",
+      "type": "Por servicio"
+    },
+    {
+      "name": "ISO 27.001- Nivel Auditor",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Kamel Jarufe",
+      "description": "Externo",
+      "type": "Por servicio"
+    },
+    {
+      "name": "ISO 27.001 especificación a jefaturas",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Sergio Illanes",
+      "description": "Sergio Illanes",
+      "type": "Corporativa"
+    },
+    {
+      "name": "Ley 21.719 Protección de Datos personales",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Victor Oliva",
+      "description": "Víctor Oliva"
+    },
+    {
+      "name": "Taller de riesgos legales y compliance",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Victor Oliva",
+      "description": "Víctor Oliva",
+      "type": "Corporativa"
+    },
+    {
+      "name": "Taller Seguridad Laboral (IPERC + EPP)",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Francisco García",
+      "description": "Externo",
+      "type": "Corporativa"
+    },
+    {
+      "name": "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Victor Oliva",
+      "description": "Víctor Oliva",
+      "type": "Corporativa"
+    },
+    {
+      "name": "Prompt engineering para Chatgpt",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Francisco García",
+      "description": "Externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Power BI",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Francisco García",
+      "description": "Externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Curso introductorio IA",
+      "service": "OVAL",
+      "date": null,
+      "speaker": "Francisco García",
+      "description": "Externo",
+      "type": "Corporativa"
+    },
+    {
+      "name": "Documentación legal especial",
+      "service": "RyCE",
+      "date": null,
+      "speaker": "Nadia San Martín",
+      "description": "Kamel Jarufe",
+      "type": "Por servicio"
+    },
+    {
+      "name": "Documentación legal y su gestión",
+      "service": "RyCE",
+      "date": null,
+      "speaker": "Nadia San Martín",
+      "description": "Kamel Jarufe",
+      "type": "Por servicio"
+    },
+    {
+      "name": "Estados financieros para informes financieros",
+      "service": "RyCE",
+      "date": null,
+      "speaker": "Nadia San Martín",
+      "description": "Sandra Rozas",
+      "type": "Por servicio"
+    },
+    {
+      "name": "Módulo compliance RyCE",
+      "service": "RyCE",
+      "date": null,
+      "speaker": "Nadia San Martín",
+      "description": "Nadia San Martin",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Taller de Indicadores Financieros",
+      "service": "RyCE",
+      "date": null,
+      "speaker": "Nadia San Martín",
+      "description": "Nadia San Martin",
+      "type": "Por servicio"
+    },
+    {
+      "name": "Legislación laboral Chile",
+      "service": "verificación CL",
+      "date": null,
+      "speaker": "Deisy Soto",
+      "description": "Víctor Oliva",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Curso finiquitos ( actas de conciliación, comparendo, reservas de derecho, etc.)",
+      "service": "verificación CL",
+      "date": null,
+      "speaker": "Deisy Soto",
+      "description": "Externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "uso de la planilla, desglose de las liquidaciones, conceptos imponible y no imponibles",
+      "service": "verificación CL",
+      "date": null,
+      "speaker": "Deisy Soto",
+      "description": "Deisy Soto",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Liquidaciones de sueldo Uruguay",
+      "service": "Verificación UY",
+      "date": null,
+      "speaker": "Karla Tasso",
+      "description": "Karla Tasso/ Camila Tapia",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Legislación laboral Uruguay",
+      "service": "Verificación UY",
+      "date": null,
+      "speaker": "Karla Tasso",
+      "description": "externo",
+      "type": "Multi-servicio"
+    },
+    {
+      "name": "Arquitectura de Software",
+      "service": "INNTEK",
+      "date": null,
+      "speaker": "Rodrigo Zapata",
+      "description": "externo"
+    },
+    {
+      "name": "Implementación de la ISO 27001.2021",
+      "service": "INNTEK",
+      "date": null,
+      "speaker": "Rodrigo Zapata",
+      "description": "externo"
+    },
+    {
+      "name": "Implementación de la ISO 27001.2022",
+      "service": "INNTEK",
+      "date": null,
+      "speaker": "Rodrigo Zapata",
+      "description": "externo"
+    },
+    {
+      "name": "Riesgos psicosociales - Módulo Complementario de acuerdo al DS°44 para personas trabajadoras\r\n\n",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Difusión del protocolo de riesgos psicosociales\r\n\r",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Cápsula - Difusión del protocolo de riesgos psicosociales\r\n",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Cápsula - Intervenciones en riesgos psicosociales\r\n",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Cápsula - Protocolo de vigilancia ocupacional por exposición a factores de riesgo de trastornos musculoesqueléticos TMER",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Difusión del protocolo de vigilancia ocupacional por exposición a factores de riesgo TMERT",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Podcast - Protocolo TMERT",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Cápsula - Ley Karin: Aprendiendo sobre la ley, las conductas y la política de prevención del acoso laboral, sexual y violencia en el trabajo",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Podcast - Ley Karin: Caso ficticio de acoso laboral",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Ley Karin: Prevención y trato del acoso sexual, laboral y violencia en el trabajo, alianza Achs-ChileMujeres - Confederación de la producción y del comercio (CPC)",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Capacitación: Prevención del acoso sexual, laboral y violencia en el trabajo de ChileMujeres y Achs",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Aspectos fundamentales de la Ley n° 21.645 sobre promoción del equilibrio de la vida familiar y labora\r\n",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Podcast - Conciliación trabajo y familia\n",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Nuevo reglamento sobre gestión de riesgos laborales, decreto N°4\r\n",
+      "service": "Documentación Controlada",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Podcast - D.S. N°44: Nuevo reglamento sobre gestión de riesgos laborale\r\n",
+      "service": "Documentación Controlada",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Confianza y justicia organizacional: Claves para resultados positivos en el trabajo\r",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Ergonomía y autocuidado en el trabajo",
+      "service": "TODOS",
+      "date": null,
+      "speaker": "Víctor Oliva",
+      "description": "ACHS"
+    },
+    {
+      "name": "Ergonomía y autocuidado para el trabajo en oficina y teletrabajo",
+      "speaker": "Francisco García",
+      "type": "Corporativa",
+      "description": "—"
+    },
+    {
+      "name": "Inducción corporativa + Prevención de delitos (20.393)",
+      "speaker": "Víctor Oliva",
+      "type": "Corporativa",
+      "description": "—"
+    },
+    {
+      "name": "Ley 21.719",
+      "speaker": "Víctor Oliva",
+      "type": "Corporativa",
+      "description": "—"
+    }
+  ],
+  "workers": [
+    {
+      "name": "BUSTOS MANRIQUEZ GUADALUPE DEL CARMEN",
+      "service": "Doc. Controlada",
+      "rut": "8679012-2"
+    },
+    {
+      "name": "CARRASCO PEREZ BEATRIZ GERTIE",
+      "service": "Doc. Controlada",
+      "rut": "10639830-5"
+    },
+    {
+      "name": "CASTILLO MUÑOZ CINTIA ALEJANDRA",
+      "service": "Doc. Controlada",
+      "rut": "17542103-3"
+    },
+    {
+      "name": "HERRERA QUEZADA MICHELLE STEPHANIA",
+      "service": "Doc. Controlada",
+      "rut": "18419558-5"
+    },
+    {
+      "name": "ALARCON LOYOLA MARCOS FERNANDO",
+      "service": "Doc. Controlada",
+      "rut": "11677211-6"
+    },
+    {
+      "name": "RODRIGUEZ ANA",
+      "service": "Doc. Controlada",
+      "rut": "—"
+    },
+    {
+      "name": "HIDALGO FUENTES FRANCISCO JAVIER",
+      "service": "Doc. Controlada",
+      "rut": "17444569-9"
+    },
+    {
+      "name": "VALDERRAMA FLORES MICHAEL PATRICIO",
+      "service": "Doc. Controlada",
+      "rut": "16762264-K"
+    },
+    {
+      "name": "TRONCOSO HERNANDEZ SANDRA PAMELA",
+      "service": "Doc. Controlada",
+      "rut": "10960128-4"
+    },
+    {
+      "name": "NICOLAS CORDOVA",
+      "service": "Doc. Controlada",
+      "rut": "—"
+    },
+    {
+      "name": "ORELLANA MALDONADO RODRIGO ARMANDO",
+      "service": "INNTEK",
+      "rut": "16239914-4"
+    },
+    {
+      "name": "ILLANES VERA SERGIO VICTOR",
+      "service": "INNTEK",
+      "rut": "17041308-3"
+    },
+    {
+      "name": "PARDO TERAN IGNACIO PABLO",
+      "service": "INNTEK",
+      "rut": "20515807-3"
+    },
+    {
+      "name": "PAREDES SUAZO BRYAN MARCELO",
+      "service": "INNTEK",
+      "rut": "19595932-3"
+    },
+    {
+      "name": "VASQUEZ ARANEDA FELIPE ALBERTO",
+      "service": "INNTEK",
+      "rut": "20776962-2"
+    },
+    {
+      "name": "ZAPATA PUENTES RODRIGO",
+      "service": "INNTEK",
+      "rut": "15592475-6"
+    },
+    {
+      "name": "PABLO SOLIS",
+      "service": "INNTEK",
+      "rut": "—"
+    },
+    {
+      "name": "SAN MARTIN NEIRA NADIA JACQUELINE",
+      "service": "RyCE",
+      "rut": "17843677-5"
+    },
+    {
+      "name": "TERREU SANTANA CAROLINA ALEJANDRA",
+      "service": "RyCE",
+      "rut": "16767404-6"
+    },
+    {
+      "name": "ULLOA SILVA LILIAN",
+      "service": "RyCE",
+      "rut": "12698729-3"
+    },
+    {
+      "name": "JARUFE CID KAMEL SKANDAR",
+      "service": "Transversal",
+      "rut": "17199590-6"
+    },
+    {
+      "name": "OLIVA SAGREDO VICTOR MANUEL",
+      "service": "Transversal",
+      "rut": "17222341-9"
+    },
+    {
+      "name": "FRANCISCO GARCIA",
+      "service": "Transversal",
+      "rut": "17617620-2"
+    },
+    {
+      "name": "VASQUEZ ALMEIDA MAGNOVI LUCELY",
+      "service": "Verif. Chile",
+      "rut": "27187689-0"
+    },
+    {
+      "name": "QUIÑONES GARRIDO JACQUELINE BEATRIZ",
+      "service": "Verif. Uruguay",
+      "rut": "17510514-k"
+    },
+    {
+      "name": "STUARDO RAMOS NATALY EDITH",
+      "service": "Verif. Chile",
+      "rut": "19380063-7"
+    },
+    {
+      "name": "QUIÑONES GARRIDO MARCELA ALEJANDRA",
+      "service": "Verif. Chile",
+      "rut": "17170164-3"
+    },
+    {
+      "name": "SANDOVAL SANDOVAL CAROLINA ELISABETH",
+      "service": "Verif. Chile",
+      "rut": "15616135-7"
+    },
+    {
+      "name": "SEGURA VALLEJOS NICOLAS ARMANDO",
+      "service": "Verif. Chile",
+      "rut": "17899552-9"
+    },
+    {
+      "name": "CRISOSTO GARCIA TALIHA",
+      "service": "Verif. Chile",
+      "rut": "18413622-8"
+    },
+    {
+      "name": "SOTO MUÑOZ DEISY ARELY",
+      "service": "Verif. Chile",
+      "rut": "13572144-1"
+    },
+    {
+      "name": "PEZOA ALVAREZ MACARENA DEL PILAR",
+      "service": "Verif. Chile",
+      "rut": "10938648-0"
+    },
+    {
+      "name": "HERNANDEZ AJA ALVARO GERARDO",
+      "service": "Verif. Uruguay",
+      "rut": "15671183-7"
+    },
+    {
+      "name": "TAPIA SALINA CAMILA LORETO",
+      "service": "Verif. Uruguay",
+      "rut": "17045651-3"
+    },
+    {
+      "name": "TASSO HENRIQUEZ KARLA JOSSELYN",
+      "service": "Verif. Uruguay",
+      "rut": "16896094-8"
+    }
+  ],
+  "talks": [
+    {
+      "trainingName": "Inducción corporativa + Prevención de delitos (Ley 20.393)",
+      "date": "2026-05-12",
+      "speaker": "Víctor Oliva",
+      "modality": "Presencial / Video",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Ley 21.719 — Protección de datos personales",
+      "date": "2026-05-21",
+      "speaker": "Víctor Oliva",
+      "modality": "Presencial / Video",
+      "duration": "2 hrs"
+    },
+    {
+      "trainingName": "Ciberseguridad – Concientización general",
+      "date": "2026-06-04",
+      "speaker": "Sergio Illanes",
+      "modality": "Videoconferencia",
+      "duration": "2 hrs"
+    },
+    {
+      "trainingName": "Ergonomía y autocuidado en oficina y teletrabajo",
+      "date": "2026-06-18",
+      "speaker": "Francisco García",
+      "modality": "Presencial / Video",
+      "duration": "2 hrs"
+    },
+    {
+      "trainingName": "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "date": "2026-07-02",
+      "speaker": "Francisco García",
+      "modality": "Presencial / Video",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "ISO 9001 – Fundamentos",
+      "date": "2026-07-09",
+      "speaker": "Kamel Jarufe",
+      "modality": "Videoconferencia",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Taller Seguridad Laboral (IPERC + EPP)",
+      "date": "2026-07-23",
+      "speaker": "Francisco García",
+      "modality": "Presencial",
+      "duration": "4 hrs"
+    },
+    {
+      "trainingName": "Contratos de trabajo Chile, Colombia y Uruguay",
+      "date": "2026-08-06",
+      "speaker": "Nicolás Córdova / Víctor Oliva",
+      "modality": "Presencial / Video",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Revisión de documentos y criterios + Detección de documentos falsos",
+      "date": "2026-08-13",
+      "speaker": "Nicolás Córdova",
+      "modality": "Presencial",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "GO + Actualización de desarrolladores – Programación segura",
+      "date": "2026-08-20",
+      "speaker": "Rodrigo Zapata",
+      "modality": "Presencial",
+      "duration": "4 hrs"
+    },
+    {
+      "trainingName": "Excel Básico e Intermedio",
+      "date": "2026-08-27",
+      "speaker": "Francisco García",
+      "modality": "Videoconferencia",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Documentación legal especial + Documentación legal y su gestión",
+      "date": "2026-09-03",
+      "speaker": "Nadia San Martín",
+      "modality": "Presencial",
+      "duration": "4 hrs"
+    },
+    {
+      "trainingName": "Estados financieros para informes financieros + Taller Indicadores Financieros",
+      "date": "2026-09-10",
+      "speaker": "Nadia San Martín",
+      "modality": "Presencial / Video",
+      "duration": "4 hrs"
+    },
+    {
+      "trainingName": "ISO 9001 – Formación avanzada Encargado de Calidad",
+      "date": "2026-09-17",
+      "speaker": "Kamel Jarufe",
+      "modality": "E-learning (Udemy)",
+      "duration": "8 hrs (flexible)"
+    },
+    {
+      "trainingName": "Taller de riesgos legales y compliance + Módulo compliance RyCE",
+      "date": "2026-09-24",
+      "speaker": "Víctor Oliva / Nadia San Martín",
+      "modality": "Presencial",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Legislación laboral Chile + Curso finiquitos + Uso de la planilla / liquidaciones",
+      "date": "2026-10-01",
+      "speaker": "Deisy Soto",
+      "modality": "Presencial",
+      "duration": "5 hrs (jornada)"
+    },
+    {
+      "trainingName": "Uso intermedio de ofimática, gmail, Office 365",
+      "date": "2026-10-08",
+      "speaker": "Francisco García",
+      "modality": "Videoconferencia",
+      "duration": "2 hrs"
+    },
+    {
+      "trainingName": "ISO 27.001 – Nivel Auditor + ISO 27.001 especificación a jefaturas",
+      "date": "2026-10-15",
+      "speaker": "Kamel Jarufe / Sergio Illanes",
+      "modality": "E-learning / Video",
+      "duration": "8 hrs (flexible)"
+    },
+    {
+      "trainingName": "NCh-ISO/IEC 17029 + ISO 9001 – Nivel Auditor",
+      "date": "2026-10-29",
+      "speaker": "Kamel Jarufe",
+      "modality": "E-learning",
+      "duration": "8 hrs (flexible)"
+    },
+    {
+      "trainingName": "Legislación laboral Uruguay + Liquidaciones de sueldo Uruguay",
+      "date": "2026-11-05",
+      "speaker": "Karla Tasso",
+      "modality": "Videoconferencia",
+      "duration": "4 hrs"
+    },
+    {
+      "trainingName": "Curso introductorio IA + Prompt engineering para ChatGPT",
+      "date": "2026-11-12",
+      "speaker": "Francisco García",
+      "modality": "Videoconferencia",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Power BI + Excel Avanzado – Dashboards corporativos",
+      "date": "2026-11-19",
+      "speaker": "Francisco García",
+      "modality": "Video / E-learning",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Taller financiero avanzado – Análisis de balances y flujo de caja",
+      "date": "2026-12-03",
+      "speaker": "Nadia San Martín",
+      "modality": "Videoconferencia",
+      "duration": "3 hrs"
+    },
+    {
+      "trainingName": "Sesión de recuperación — Cursos no ejecutados o asistencia incompleta",
+      "date": "2026-12-10",
+      "speaker": "Kamel Jarufe",
+      "modality": "Variable",
+      "duration": "Variable"
+    },
+    {
+      "trainingName": "Revisión de avance anual del Plan de Capacitaciones 2026",
+      "date": "2026-12-17",
+      "speaker": "Kamel Jarufe",
+      "modality": "Presencial",
+      "duration": "1 hr"
+    }
+  ],
+  "serviceAssignments": {
+    "Doc. Controlada": [
+      "Contratos de trabajo Chile, Colombia y Uruguay",
+      "Detección de documentos falsos o alterados",
+      "Excel Básico e Intermedio",
+      "Revisión de documentos y criterios",
+      "SQL",
+      "ISO 9001 – Fundamentos",
+      "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "Taller Seguridad Laboral (IPERC + EPP)",
+      "Ciberseguridad – Concientización general",
+      "Ergonomía y autocuidado para el trabajo en oficina y teletrabajo",
+      "Inducción corporativa + Prevención de delitos (20.393)",
+      "Ley 21.719",
+      "Curso introductorio IA",
+      "Excel Avanzado – Dashboards corporativos",
+      "Legislación laboral Uruguay",
+      "Liquidaciones de sueldo Uruguay",
+      "Power BI",
+      "ISO 27.001 especificación a jefaturas",
+      "Legislación laboral Chile",
+      "Uso intermedio de ofimática, gmail, office 365",
+      "ISO 9001 – Formación avanzada Encargado de Calidad",
+      "Taller de riesgos legales y compliance"
+    ],
+    "INNTEK": [
+      "Actualización de desarrolladores – Programación segura",
+      "GO",
+      "SQL",
+      "PHP LARAVEL VIEW",
+      "ISO 9001 – Fundamentos",
+      "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "Taller Seguridad Laboral (IPERC + EPP)",
+      "Ciberseguridad – Concientización general",
+      "Ergonomía y autocuidado para el trabajo en oficina y teletrabajo",
+      "Inducción corporativa + Prevención de delitos (20.393)",
+      "Ley 21.719",
+      "Legislación laboral Chile"
+    ],
+    "RyCE": [
+      "Excel Básico e Intermedio",
+      "ISO 9001 – Fundamentos",
+      "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "Taller Seguridad Laboral (IPERC + EPP)",
+      "Ciberseguridad – Concientización general",
+      "Ergonomía y autocuidado para el trabajo en oficina y teletrabajo",
+      "Inducción corporativa + Prevención de delitos (20.393)",
+      "Ley 21.719",
+      "Curso introductorio IA",
+      "Excel Avanzado – Dashboards corporativos",
+      "Prompt engineering para Chatgpt",
+      "ISO 27.001 especificación a jefaturas",
+      "Documentación legal especial",
+      "Documentación legal y su gestión",
+      "Estados financieros para informes financieros",
+      "Módulo compliance RyCE",
+      "Taller de Indicadores Financieros",
+      "Taller de riesgos legales y compliance"
+    ],
+    "Transversal": [
+      "ISO 9001 – Fundamentos",
+      "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "Taller Seguridad Laboral (IPERC + EPP)",
+      "Ciberseguridad – Concientización general",
+      "Ergonomía y autocuidado para el trabajo en oficina y teletrabajo",
+      "Inducción corporativa + Prevención de delitos (20.393)",
+      "Ley 21.719",
+      "Curso introductorio IA",
+      "Excel Avanzado – Dashboards corporativos",
+      "Legislación laboral Uruguay",
+      "Liquidaciones de sueldo Uruguay",
+      "Power BI",
+      "Prompt engineering para Chatgpt",
+      "ISO 27.001 especificación a jefaturas",
+      "ISO 27.001- Nivel Auditor",
+      "ISO 9001- Nivel Auditor",
+      "Legislación laboral Chile",
+      "NCh-ISO/IEC 17029",
+      "Uso intermedio de ofimática, gmail, office 365",
+      "ISO 9001 – Formación avanzada Encargado de Calidad",
+      "Módulo compliance RyCE",
+      "Taller de riesgos legales y compliance"
+    ],
+    "Verif. Chile": [
+      "Contratos de trabajo Chile, Colombia y Uruguay",
+      "Excel Básico e Intermedio",
+      "ISO 9001 – Fundamentos",
+      "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "Taller Seguridad Laboral (IPERC + EPP)",
+      "Ciberseguridad – Concientización general",
+      "Ergonomía y autocuidado para el trabajo en oficina y teletrabajo",
+      "Inducción corporativa + Prevención de delitos (20.393)",
+      "Ley 21.719",
+      "Curso introductorio IA",
+      "Legislación laboral Uruguay",
+      "Liquidaciones de sueldo Uruguay",
+      "Curso finiquitos ( actas de conciliación, comparendo, reservas de derecho, etc.)",
+      "ISO 27.001 especificación a jefaturas",
+      "Uso intermedio de ofimática, gmail, office 365",
+      "uso de la planilla, desglose de las liquidaciones, conceptos imponible y no imponibles",
+      "Taller de riesgos legales y compliance"
+    ],
+    "Verif. Uruguay": [
+      "Contratos de trabajo Chile, Colombia y Uruguay",
+      "Excel Básico e Intermedio",
+      "SQL",
+      "ISO 9001 – Fundamentos",
+      "Protocolo Suseso-CEAL: Capacitación a Comité Aplicación",
+      "Taller Seguridad Laboral (IPERC + EPP)",
+      "Ciberseguridad – Concientización general",
+      "Ergonomía y autocuidado para el trabajo en oficina y teletrabajo",
+      "Inducción corporativa + Prevención de delitos (20.393)",
+      "Ley 21.719",
+      "Curso introductorio IA",
+      "Excel Avanzado – Dashboards corporativos",
+      "Legislación laboral Uruguay",
+      "Liquidaciones de sueldo Uruguay",
+      "Power BI",
+      "Curso finiquitos ( actas de conciliación, comparendo, reservas de derecho, etc.)",
+      "ISO 27.001 especificación a jefaturas",
+      "Uso intermedio de ofimática, gmail, office 365",
+      "uso de la planilla, desglose de las liquidaciones, conceptos imponible y no imponibles",
+      "Taller de riesgos legales y compliance"
+    ]
+  }
+}

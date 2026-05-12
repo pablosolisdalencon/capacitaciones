@@ -1,0 +1,19 @@
+{
+  "$schema": "working_memory_v1",
+  "metadata": {
+    "updated_at": "2026-05-12T04:05:00Z"
+  },
+  "session": {
+    "objective": "Desarrollo de aplicación web de gestión de capacitaciones (Node, React, Tailwind, MySQL) en monorepo.",
+    "current_task": "Task 1.2: Configuración del Backend - Creación de modelos de datos.",
+    "active_skills": ["maf_agile", "master_orchestrator"],
+    "decisions": [
+      "Usar MySQL como base de datos (solicitud del usuario).",
+      "Estructura de monorepo con backend y frontend."
+    ],
+    "task_status": {
+      "task_1_1": "completada",
+      "task_1_2": "en progreso"
+    }
+  }
+}
