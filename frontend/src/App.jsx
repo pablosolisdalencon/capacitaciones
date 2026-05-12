@@ -1,5 +1,5 @@
-﻿import { useState, useEffect } from 'react'
-import API_URL from '../config/api.js';
+import { useState, useEffect } from 'react'
+import API_URL from './config/api.js';
 import ServicesManager from './components/ServicesManager'
 import SpecialtiesManager from './components/SpecialtiesManager'
 import TrainingsManager from './components/TrainingsManager'
