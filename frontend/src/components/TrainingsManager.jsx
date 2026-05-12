@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import API_URL from '../config/api.js';
 
 function TrainingsManager({ token }) {
   const [trainings, setTrainings] = useState([]);
@@ -14,7 +15,7 @@ function TrainingsManager({ token }) {
 
   const fetchTrainings = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/trainings', {
+      const res = await fetch('$\{API_URL\}/api/trainings', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -31,7 +32,7 @@ function TrainingsManager({ token }) {
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/trainings', {
+      const res = await fetch('$\{API_URL\}/api/trainings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

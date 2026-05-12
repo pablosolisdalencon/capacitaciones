@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import API_URL from '../config/api.js';
 
 function TalksManager({ token }) {
   const [talks, setTalks] = useState([]);
@@ -18,7 +19,7 @@ function TalksManager({ token }) {
 
   const fetchTalks = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/talks', {
+      const res = await fetch('$\{API_URL\}/api/talks', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -28,7 +29,7 @@ function TalksManager({ token }) {
 
   const fetchTrainings = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/trainings', {
+      const res = await fetch('$\{API_URL\}/api/trainings', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -38,7 +39,7 @@ function TalksManager({ token }) {
 
   const fetchSpeakers = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/speakers', {
+      const res = await fetch('$\{API_URL\}/api/speakers', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -49,7 +50,7 @@ function TalksManager({ token }) {
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/talks', {
+      const res = await fetch('$\{API_URL\}/api/talks', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import API_URL from '../config/api.js';
 
 function OperatorRequests({ token }) {
   const [requests, setRequests] = useState([]);
@@ -13,7 +14,7 @@ function OperatorRequests({ token }) {
 
   const fetchRequests = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/requests', {
+      const res = await fetch('$\{API_URL\}/api/requests', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -26,7 +27,7 @@ function OperatorRequests({ token }) {
     setError('');
     setSuccess('');
     try {
-      const res = await fetch('http://localhost:5000/api/requests', {
+      const res = await fetch('$\{API_URL\}/api/requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import API_URL from '../config/api.js';
 
 function Agenda({ token }) {
   const [talks, setTalks] = useState([]);
@@ -10,7 +11,7 @@ function Agenda({ token }) {
 
   const fetchTalks = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/talks', {
+      const res = await fetch('$\{API_URL\}/api/talks', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();

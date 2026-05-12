@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import API_URL from '../config/api.js';
 
 function SpeakersManager({ token }) {
   const [speakers, setSpeakers] = useState([]);
@@ -13,7 +14,7 @@ function SpeakersManager({ token }) {
 
   const fetchSpeakers = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/speakers', {
+      const res = await fetch('$\{API_URL\}/api/speakers', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -30,7 +31,7 @@ function SpeakersManager({ token }) {
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/speakers', {
+      const res = await fetch('$\{API_URL\}/api/speakers', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

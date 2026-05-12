@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import API_URL from '../config/api.js';
 
 function WorkersManager({ token }) {
   const [workers, setWorkers] = useState([]);
@@ -24,7 +25,7 @@ function WorkersManager({ token }) {
 
   const fetchWorkers = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/workers', {
+      const res = await fetch('$\{API_URL\}/api/workers', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -34,7 +35,7 @@ function WorkersManager({ token }) {
 
   const fetchServices = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/services', {
+      const res = await fetch('$\{API_URL\}/api/services', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -44,7 +45,7 @@ function WorkersManager({ token }) {
 
   const fetchTalks = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/talks', {
+      const res = await fetch('$\{API_URL\}/api/talks', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -54,7 +55,7 @@ function WorkersManager({ token }) {
 
   const fetchTrainings = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/trainings', {
+      const res = await fetch('$\{API_URL\}/api/trainings', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -65,7 +66,7 @@ function WorkersManager({ token }) {
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/workers', {
+      const res = await fetch('$\{API_URL\}/api/workers', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -92,7 +93,7 @@ function WorkersManager({ token }) {
     setError('');
     setSuccess('');
     try {
-      const res = await fetch('http://localhost:5000/api/requests', {
+      const res = await fetch('$\{API_URL\}/api/requests', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -120,7 +121,7 @@ function WorkersManager({ token }) {
 
   const handleAssignTrainings = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/api/workers/${selectedWorkerForTrainings.id}/trainings`, {
+      const res = await fetch(`$\{API_URL\}/api/workers/${selectedWorkerForTrainings.id}/trainings`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
