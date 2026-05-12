@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import API_URL from '../config/api.js';
 
 function FunctionalView({ navMode, selectedItemId, token }) {
@@ -20,7 +20,7 @@ function FunctionalView({ navMode, selectedItemId, token }) {
     setError('');
     try {
       const endpoint = navMode === 'PERSONAS' ? 'workers' : 'trainings';
-      const res = await fetch(`$\{API_URL\}/api/${endpoint}/${selectedItemId}`, {
+      const res = await fetch(`${API_URL}/api/${endpoint}/${selectedItemId}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();

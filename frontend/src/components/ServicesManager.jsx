@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import API_URL from '../config/api.js';
 
 function ServicesManager({ token }) {
@@ -17,7 +17,7 @@ function ServicesManager({ token }) {
 
   const fetchServices = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/services', {
+      const res = await fetch(`${API_URL}/api/services`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -33,7 +33,7 @@ function ServicesManager({ token }) {
 
   const fetchTrainings = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/trainings', {
+      const res = await fetch(`${API_URL}/api/trainings`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -44,7 +44,7 @@ function ServicesManager({ token }) {
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('$\{API_URL\}/api/services', {
+      const res = await fetch(`${API_URL}/api/services`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -67,7 +67,7 @@ function ServicesManager({ token }) {
 
   const handleAssignTrainings = async () => {
     try {
-      const res = await fetch(`$\{API_URL\}/api/services/${selectedServiceId}/trainings`, {
+      const res = await fetch(`${API_URL}/api/services/${selectedServiceId}/trainings`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

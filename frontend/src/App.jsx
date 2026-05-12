@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+﻿import { useState, useEffect } from 'react'
 import API_URL from '../config/api.js';
 import ServicesManager from './components/ServicesManager'
 import SpecialtiesManager from './components/SpecialtiesManager'
@@ -40,7 +40,7 @@ function App() {
     e.preventDefault();
     setError('');
     try {
-      const res = await fetch('$\{API_URL\}/api/auth/login', {
+      const res = await fetch(`${API_URL}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password })
@@ -69,7 +69,7 @@ function App() {
 
   const fetchWorkers = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/workers', {
+      const res = await fetch(`${API_URL}/api/workers`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -79,7 +79,7 @@ function App() {
 
   const fetchTrainings = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/trainings', {
+      const res = await fetch(`${API_URL}/api/trainings`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -89,7 +89,7 @@ function App() {
 
   const fetchServices = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/services', {
+      const res = await fetch(`${API_URL}/api/services`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();

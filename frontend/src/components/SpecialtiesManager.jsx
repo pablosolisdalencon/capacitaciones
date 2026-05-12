@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import API_URL from '../config/api.js';
 
 function SpecialtiesManager({ token }) {
@@ -13,7 +13,7 @@ function SpecialtiesManager({ token }) {
 
   const fetchSpecialties = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/specialties', {
+      const res = await fetch(`${API_URL}/api/specialties`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -30,7 +30,7 @@ function SpecialtiesManager({ token }) {
   const handleCreate = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('$\{API_URL\}/api/specialties', {
+      const res = await fetch(`${API_URL}/api/specialties`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

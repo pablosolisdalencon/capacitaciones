@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import API_URL from '../config/api.js';
 
 function Dashboard({ token }) {
@@ -11,7 +11,7 @@ function Dashboard({ token }) {
 
   const fetchStats = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/dashboard/stats', {
+      const res = await fetch(`${API_URL}/api/dashboard/stats`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();

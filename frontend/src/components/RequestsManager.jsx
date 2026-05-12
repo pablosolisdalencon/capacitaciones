@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+﻿import { useState, useEffect } from 'react';
 import API_URL from '../config/api.js';
 
 function RequestsManager({ token }) {
@@ -11,7 +11,7 @@ function RequestsManager({ token }) {
 
   const fetchRequests = async () => {
     try {
-      const res = await fetch('$\{API_URL\}/api/requests', {
+      const res = await fetch(`${API_URL}/api/requests`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -21,7 +21,7 @@ function RequestsManager({ token }) {
 
   const handleUpdateStatus = async (id, status) => {
     try {
-      const res = await fetch(`$\{API_URL\}/api/requests/${id}`, {
+      const res = await fetch(`${API_URL}/api/requests/${id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
